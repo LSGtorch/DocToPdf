@@ -67,9 +67,9 @@ public class DocToPdfConverter extends AsyncTask<Uri, Object, File> {
     private File convertDocx(Context context, Uri uri, String fileName) throws Exception {
         reportProgress(10, "解析文档结构...");
 
-        List<String> paragraphs;
+        List<DocxParser.ParagraphData> paragraphs;
         try (InputStream is = context.getContentResolver().openInputStream(uri)) {
-            paragraphs = DocxParser.parseParagraphs(is, new DocxParser.ProgressListener() {
+            paragraphs = DocxParser.parse(is, new DocxParser.ProgressListener() {
                 @Override
                 public void onProgress(int percent) {
                     publishProgress(10 + percent * 40 / 100, "解析文档中... " + percent + "%");
@@ -77,7 +77,7 @@ public class DocToPdfConverter extends AsyncTask<Uri, Object, File> {
             });
         }
 
-        reportProgress(55, "生成 PDF 中...");
+        reportProgress(55, "生成 PDF 中... 处理了 " + paragraphs.size() + " 个段落");
 
         String pdfName = fileName.replaceAll("\\.(?i)(docx|doc)$", ".pdf");
         File outFile = new File(context.getCacheDir(), pdfName);

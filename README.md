@@ -1,1 +1,34 @@
-IyBEb2NUb1BkZiDmlofmrY7ovabQkFBEhwpZ3HpQmHooZG9jeCDmlofku7bmvJTlt7LmlofmrY7ovabQkFBE77yM5pSv5oyB5Zu+54mH6LWw5YWl44CB5qC35byP5L+d55WZ44CB5LiA6ZSu5YiG5Lqr44CC5omT5byAZG9jeCDmlofku7bljbPlj6/lhYjoh6Plt7LmibnmrKHvvIzliJHom7vmnaHnmoTjgIIKCiMjIOWIhuaekOeJueiJsgotICoqRE9DWCDihpIgUERGIOi2i+abyioqOuW/q+WAv+WwhuWFi+W5tOaWh+S7tuaciemXtOWcqOayoeW8j+W8gOWPkeaWh+S7tuabrOiKr+iuoeWIkjog6Ieq5Yqo5o+Q5Y+WRE9DWOaWh+S7tuWPr+S7peaKpeW8j+aUtuiXjyBQREYKLSAqKuWbvueJh+akvOaMhiovOuihqOaKi+aJk+W8gOaWh+S7tuekuuWbvueJh++8jOWujOe+pOi1sOWFpSBQREYKLSAqKuagoeavlOS555WZKi865L+d55WZ57K+5L2c6Led77yI57K+5L2c6ICX5L2T6KGo77yJLOWtpuWPt+minOiJsuOAgeWtpuWPt+minOiJsuOAgeWtpuS9s+i+huOAgeeCu+WvhuaXtuOAgeWtpuS9s+aPj+S9nOazqOS4veetieatpOaUvuiXkiBNUyBPZmZpY2Ug5o6S54mI6aOO5qC8Ci0gICrlpJXpg6jplJnor6/miJPlvIAmIzI2ODQ75ZCO5byAKi865Zyo5paH5Lu25Z6K55CG5Zmo5Lit55u05o6l5omT5byARFvjgIHlv4Xnu4Plh73mlbTku7vkvZXlj6/mraPlj6/miJPlvIAtICAqKuW/q+aLqeWIhuS6qyovOuW+iOaNn+WfuuacjeWcqOWPr+S7peaImOaXtuWItuacjeWIl+W8gOW/q+mHj+aYr+W/q+aJqeWIlwotICAqKuWunuaXtui/nui0qiovOuihqOekuuWIsOaIkOmBk+WPr+mAie+8jOaTjeS9nOS4gOebruS6huaLiworICogKuacjeiinui8veaOpSovOk1hdGVyaWFsIERlc2lnbuWUmeWOpO+8jOaTjeS9nOebtOaOggoKIyMg5L2/55So5pa55byPCjEuIOWuieijheWQjuWcqOWPr+aJqeaYr+W/g+aPkueUn+WZqOS4reaJk+W8gERPQ1jmlofku7YKMi4g54K55Ye75paH5Lu2IOKGkCDpgInmi6kiRG9j6L2Q5p2GREbvvJ3miJflvI/lj5bmrKEzLiDnrYnlvoXov5vmmI7lrozmj5A0LiDoh6rliqjmibnlj5DnlJ/miJDnmoQgUERG77yM5oiW6YCJ5oup5YiG5LqrCqeiVuaYr+WcqOW6k+WGhemFjeWPluKAiumAieaLqeWItuacjeWChyLlsI/ml7blrozlj5blpZfliJfooajmlofku7bjgIIKIyMg5LiLovb0CuiLpei9rOWOn+WboO+8iFJlbGVhc2VzIOmhteaOp++8ieS4i+i9tOS4i+acqOaJgOWTgSBBUEvjgIIKIyMg5L2c6ICFCir//KpMU0d0b3JjaO+8gS0gW0dpdEh1Yl0oaHR0cHM6Ly9naXRodWIuY29tL0xTR3RvcmNoKQoKIyMg5byA5rqQ5Y2P6K6uIOacrOaKiOWcqyAqKkdQTC0zLjAqKiDljY/noIHlvIDmupDvvIAtIOWutuihqCBbTElDRU5TRV0oTElDRU5TRSkg5paH5Lu2
+# DocToPdf（文档转PDF）
+
+一款安卓应用，将 DOCX 文件转换为 PDF，支持图片嵌入、样式保留、一键分享。打开 DOCX 文件即可自动转换，操作简单，转换效果好。
+
+## 功能特色
+
+- **DOCX → PDF 转换**：快速将 Word 文档转换为 PDF 格式
+- **图片支持**：自动提取文档中的图片，完美嵌入 PDF
+- **排版保留**：保留粗体、斜体、字号、字体颜色、字体族、对齐方式等 MS Office 排版风格
+- **外部关联打开**：在文件管理器中直接打开 DOCX 文件即可启动转换
+- **快捷分享**：转换完成后可立即打开或分享 PDF 文件
+- **实时进度**：显示转换进度，操作一目了然
+- **绿色简洁**：Material Design 界面，操作直观
+
+## 使用方式
+
+1. 安装应用后，在文件管理器中找到 DOCX 文件
+2. 点击文件 → 选择"Doc转PDF"打开
+3. 等待转换完成
+4. 自动打开生成的 PDF，或选择分享
+
+也可在应用内点击"选择文件"按钮手动选取 DOCX 文件。
+
+## 下载
+
+前往 [Releases 页面](https://github.com/LSGtorch/DocToPdf/releases) 下载最新 APK。
+
+## 作者
+
+**LSGtorch** - [GitHub](https://github.com/LSGtorch)
+
+## 开源协议
+
+本项目基于 **GPL-3.0** 协议开源 - 详见 [LICENSE](LICENSE) 文件
