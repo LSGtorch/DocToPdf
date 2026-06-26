@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        maven { url 'file:///root/.m2/repository' }
+        maven { url 'https://repo1.maven.org/maven2' }
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "DocToPdf"
+include ':app'

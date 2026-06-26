@@ -1,0 +1,20 @@
+buildscript {
+    repositories {
+        maven { url 'file:///root/.m2/repository' }
+        maven { url 'https://repo1.maven.org/maven2' }
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.0'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'file:///root/.m2/repository' }
+        maven { url 'https://repo1.maven.org/maven2' }
+        google()
+        mavenCentral()
+    }
+}
