@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Doc转PDF</string>
+    <string name="subtitle">快速将Word文档转换为PDF</string>
+    <string name="how_to_use">在文件管理器中选择 doc/docx 文件，用本应用打开即可自动转换</string>
+    <string name="idle_hint">请从其他应用分享或打开 doc/docx 文件</string>
+    <string name="supported_formats">支持格式: DOCX（推荐）· DOC（有限支持）</string>
+    <string name="share_via">用Doc转PDF分享</string>
+    <string name="open_pdf">打开 PDF</string>
+    <string name="share_pdf">分享 PDF</string>
+    <string name="retry">重试</string>
+    <string name="open_source_info">开源信息</string>
+    <string name="author">作者: LSGtorch</string>
+    <string name="source_url">开源地址: https://github.com/LSGtorch/DocToPdf</string>
+    <string name="license">协议: GPL-3.0</string>
+</resources>
