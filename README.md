@@ -1,19 +1,27 @@
-# DocToPdf
+# DocToPdf (文档转PDF)
 
-Android app to convert DOC/DOCX files to PDF with share support.
+安卓应用，将 DOC/DOCX 文件转换为 PDF，支持从其他应用打开、分享转换后的文件。
 
-## Features
+## 功能特色
 
-- Convert DOCX files to PDF
-- Open files from other apps (external association)
-- Share converted PDF directly
-- Progress tracking during conversion
-- Open source under GPL-3.0 license
+- **格式转换**：支持将 DOCX 文件转换为 PDF 格式
+- **图片支持**：自动提取文档中的图片并嵌入 PDF
+- **样式保留**：保留粗体、斜体、字号、字体颜色、对齐方式等排版信息
+- **外部关联**：在文件管理器中直接打开 doc/docx 文件即可转换
+- **分享文件**：转换后可立即分享或打开 PDF
+- **进度监控**：实时显示转换进度
 
-## Author
+## 使用方式
 
-LSGtorch - https://github.com/LSGtorch/DocToPdf
+1. 安装应用后，在文件管理器中找到 DOCX 文件
+2. 长按文件 → 选择"用其他应用打开"
+3. 选择"Doc转PDF"
+4. 等待转换完成，即可打开或分享 PDF
 
-## License
+## 作者
 
-GPL-3.0 - See [LICENSE](LICENSE) file
+**LSGtorch** - [GitHub](https://github.com/LSGtorch/DocToPdf)
+
+## 开源协议
+
+本项目基于 GPL-3.0 协议开源 - 详见 [LICENSE](LICENSE) 文件
